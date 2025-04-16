@@ -1,0 +1,33 @@
+# === 공통 ===
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+
+# === Node.js / React ===
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.parcel-cache/
+
+# === Java / Spring Boot ===
+backend/target/
+backend/build/
+*.class
+*.jar
+*.war
+*.iml
+
+# === IntelliJ / VSCode 환경 파일 ===
+*.idea/
+*.vscode/
+*.classpath
+*.project
+*.settings/
+
+# === OS별 임시 파일 ===
+*.swp
+*.bak
+*.tmp
